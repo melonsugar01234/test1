@@ -26,7 +26,7 @@ async function getData() {
       course_heading.style = 'background-color:red; text-align:center;';
 
       new_course.style =
-        'background-color: rgba(200, 200, 200, 0.15); border: 2px solid gray; padding: 30px; border-radius:16px;';
+        'width: 50%; background-color: rgba(200, 200, 200, 0.15); border: 2px solid gray; padding: 30px; border-radius:16px;';
     
         courses_container.style = 'display: flex; gap: 10px; flex-wrap: wrap;';
       courses_container.append(new_course);

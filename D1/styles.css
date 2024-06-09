@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.heading{
+    display: flex;
+    background-color: rgb(170, 136, 179);
+    padding: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.shadow{
+    box-shadow: 10px 10px 15px -10px rgba(116,116,116,0.75);
+}
+nav{
+    margin:12px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 30, 255);
+}
